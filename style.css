@@ -1,0 +1,93 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(320deg, #e8ef5b,  #4dea6f,  #e7a55a);
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, .75);
+    border: 1px solid rgba(255, 255, 255, .01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, .3);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+}
+.screen {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, .75);
+    font-size: 35px;
+    text-align: right;
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, .2);
+    padding: 20px;
+    width: 326px;
+    overflow: auto;
+}
+
+.button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.calc-button{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, .01);
+    border: 1px solid rgba(255, 255, 255, .01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, .2);
+    flex-basis: 20%;
+    height: 65px;
+    font-size: 24px;
+    font-family: inherit;
+}
+
+.calc-button:last-child{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, .01);
+    border: 1px solid rgba(255, 255, 255, .01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, .2);
+    background: #efb069;
+    color: azure;
+}
+
+.calc-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.calc-button:active{
+    background-color: #efb069;
+}
+
+.double{
+    flex-basis: 47%;
+}
+
+.triple{
+    flex-basis: 73%;
+}
